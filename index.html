@@ -1,0 +1,154 @@
+<!---
+Project: Project 3
+Name: Brendon Madsen
+Submitted: 11/2/2022    
+    
+I declare that the following source code was written by me, or provided
+by the instructor for this project. I understand that copying source
+code from any other source, providing source code to another student, 
+or leaving my code on a public web site constitutes cheating.
+I acknowledge that  If I am found in violation of this policy this may result
+in a zero grade, a permanent record on file and possibly immediate failure of the class.
+
+The project was good. This was more of a personal project that I fit into the requirements
+and I had a lot of fun making it. Im not sure if my design is great for media queries for
+tablets and phones but I think it does ok.
+-->
+<!DOCTYPE html>
+<html>
+    <head>
+        <link href="main.css" rel="stylesheet">
+        <script src="js/main.js"></script>
+    </head>
+    <body>
+        <header>
+            <img id="logo" src="img/DandDWlogo.svg" alt="Dark and Darker Wiki">
+        </header>
+        <!--A section where ads could be implemented.-->
+        <section id="bannerads">
+            <div id="bannerads1">
+                <p>Sample Ad</p>
+            </div>
+        </section>
+        <main>
+            <!--This is the homepage content which is flex items with images with a title and article to the side.-->
+            <section id="homepage">
+                <h1 class="pageTitle">News</h1>
+                <div class="homepagecontent">
+                    <img src="img/DandDasset1.webp" alt="Dark and Darker party" width="300px">
+                    <div>
+                        <h2>Playtest #2</h2>
+                        <p>The second Dark and Darker alpha playtest will start on October 28th and run until November 1st. Any players returning from the first playtest will have immediate access whilst new players will have to join the playtest. Once you have joined the playtest the game is available for download on Steam and free to play for the duration of the playtests.</p>
+                    </div>    
+                </div>
+                <div class="homepagecontent">
+                    <iframe width="300px"
+                        src="https://www.youtube.com/embed/bu9fDDHfkS8" style="border:none">
+                    </iframe>
+                    <div>
+                        <h2>Stouty 1v3</h2>
+                        <p>Dark and Darker player Stouty shows off his skills wiping out full teams by himself. As a top ranked melee slasher player he has no problems fighting outnumbered. With good use of shield potions and positioning he effortlessly goes head to head with rouges, clerics, barbarians and anything else that stands in his way.</p>
+                    </div>
+                </div>
+                <div class="homepagecontent">
+                    <img src="img/DandDasset2.webp" alt="Dark and Darker party" width="300px">
+                    <div>
+                        <h2 class="testing">New Map</h2>
+                        <p>Currently there is only one map in the game with levels 2 and 3 implemented. Ironmace has announced that level 1 will be available to play during the next playtest. Level 1 will have a max player capacity above 30 with many oppurtunities for escape portals. The mobs in this level will be easier to kill at the trade off of lower quality loot than the current level offering. This will be a welcomed improvement as many players have expressed their grief at the diffuculty of level 2.</p>
+                    </div>
+                </div>
+            </section>
+            <!--This is a page full of images of classes and the name of the class.-->
+            <section id="classes">
+                <h1 class="pageTitle">Classes</h1>
+                <div>
+                    <h2>Wizard</h2>
+                    <img id="borderimg" src="img/DandDwizard.webp" alt="Dark and Darker party" height="200px">
+                </div>
+                <div>
+                    <h2>Cleric</h2>
+                    <img id="borderimg" src="img/DandDcleric.webp" alt="Dark and Darker party" height="200px">
+                </div>
+                <div>
+                    <h2>Rogue</h2>
+                    <img id="borderimg" src="img/DandDrogue.webp" alt="Dark and Darker party" height="200px">
+                </div>
+                <div>
+                    <h2>Ranger</h2>
+                    <img id="borderimg" src="img/DandDranger.webp" alt="Dark and Darker party" height="200px">
+                </div>
+                <div>
+                    <h2>Fighter</h2>
+                    <img id="borderimg" src="img/DandDfighter.webp" alt="Dark and Darker party" height="200px">
+                </div>
+                <div>
+                    <h2>Barbarian</h2>
+                    <img id="borderimg" src="img/DandDbarbarian.webp" alt="Dark and Darker party" height="200px">
+                </div>
+            </section>
+            <!--This is a page with a table full of items and a picture with a description.-->
+            <section id="items">
+                <h1 class="pageTitle">Items</h1>
+                <table>
+                    <tr>
+                        <th>Item</th><th>Damage</th><th>Speed</th><th>Value</th>
+                    </tr>
+                    <tr>
+                        <td>Mace</td><td>19</td><td>-25</td><td>3</td>
+                    </tr>
+                    <tr>
+                        <td>Morning Star</td><td>24</td><td>-25</td><td>10</td>
+                    </tr>
+                    <tr>
+                        <td>Falchion</td><td>21</td><td>-25</td><td>4</td>
+                    </tr>
+                    <tr>
+                        <td>Rhondel Dagger</td><td>15</td><td>-10</td><td>3</td>
+                    </tr>
+                    <tr>
+                        <td>Maul</td><td>35</td><td>-55</td><td>14</td>
+                    </tr>
+                    <tr>
+                        <td>Wizard Staff</td><td>20</td><td>-25</td><td>2</td>
+                    </tr>
+                    <tr>
+                        <td>Crossbow</td><td>50</td><td>-55</td><td>16</td>
+                    </tr>
+                    <tr>
+                        <td>Castillion</td><td>17</td><td>-20</td><td>7</td>
+                    </tr>
+                    <tr>
+                        <td>Bow</td><td>40</td><td>-55</td><td>9</td>
+                    </tr>
+                    <tr>
+                        <td>Spear</td><td>38</td><td>-40</td><td>11</td>
+                    </tr>
+                </table>
+                <figure>
+                    <img src="img/DandDasset3.webp" alt="Dark and Darker Party" height="200px">
+                    <figcaption>*Disclaimer* Currently there are an unknown amount of weapons in Dark and Darker. It is not know whether weapon stats exist on a range or if the numbers for damage and value are discrete.</figcaption>
+                </figure>
+            </section>
+        </main>
+        <!--This is for the navigation menu.-->
+        <aside id="menu">
+            <nav>
+                <img src="img/DandDWnavigation.svg" alt="Navigation">
+                <button type="button" onclick="homepageDisplay()">Homepage</button>
+                <button type="button" onclick="classesDisplay()">Classes</button>
+                <button type="button" onclick="itemsDisplay()">Items</button>
+            </nav>
+        </aside>
+        <!--This is for ads that could be implemented into the site.-->
+        <aside id="sideads">
+            <div id="sideads1">
+                <p>Sample Ad</p>
+            </div>
+        </aside>
+        <!--Footer with simple information about the website.-->
+        <footer>
+            <p>Website created by Brendon Madsen</p>
+            <p>brendonmadsen@gmail.com</p>
+        </footer>
+    </body>
+</html>
